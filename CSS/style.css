@@ -19,16 +19,16 @@ header{
 }
 nav ul{
     list-style:none;
-    display:flex
-
+    display:flex;
+    gap:20px;
 }
-nav li:not(:last-child){
-margin-right: 20px;
+nav a{
+    text-decoration: none;
 }
 .contenido{
     width: 900px;
     margin:0 auto;
-    padding:20px 0 100px
+    padding:20px 0 100px;
 }
 .contenido :not(:first-child){
     margin-top: 20px;
